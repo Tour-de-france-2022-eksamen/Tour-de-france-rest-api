@@ -1,0 +1,215 @@
+{
+	"info": {
+		"_postman_id": "dfcb8f47-0b44-4bd2-9ff0-47fd3b9a4852",
+		"name": "Tour De France 2022 rest-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17764065"
+	},
+	"item": [
+		{
+			"name": "Read all riders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/riders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"riders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read all riders by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/riders/{id}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"riders",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read all riders by team",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/riders/{teamid}/riders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"riders",
+						"{teamid}",
+						"riders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read riders order by time",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/riders/orderbytime",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"riders",
+						"orderbytime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read all teams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/teams",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"teams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read team by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/teams/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"teams",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create rider",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"riderId\": 2,\n        \"name\": \"New Rider\",\n        \"age\": 33,\n        \"nationality\": \"Portugal\",\n        \"time\": 184522.0,\n        \"mountainPoints\": 2,\n        \"sprintPoints\": 0\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/riders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"riders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update rider by id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"riderId\": 2,\n        \"name\": \"New UPDATE UPDATE\",\n        \"age\": 33,\n        \"nationality\": \"Portugal\",\n        \"time\": 184522.0,\n        \"mountainPoints\": 2,\n        \"sprintPoints\": 0\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/riders/{id}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"riders",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete rider by id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"riderId\": 2,\n        \"name\": \"New UPDATE UPDATE\",\n        \"age\": 33,\n        \"nationality\": \"Portugal\",\n        \"time\": 184522.0,\n        \"mountainPoints\": 2,\n        \"sprintPoints\": 0\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/riders/{id}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"riders",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
