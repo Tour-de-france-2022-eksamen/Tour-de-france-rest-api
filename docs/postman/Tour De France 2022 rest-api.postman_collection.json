@@ -26,26 +26,6 @@
 			"response": []
 		},
 		{
-			"name": "Read all riders by id",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:8080/riders/{id}",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"riders",
-						"{id}"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "Read all riders by team",
 			"request": {
 				"method": "GET",
@@ -67,7 +47,7 @@
 			"response": []
 		},
 		{
-			"name": "Read riders order by time",
+			"name": "Read all riders order by time",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -81,6 +61,26 @@
 					"path": [
 						"riders",
 						"orderbytime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read rider by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/riders/{id}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"riders",
+						"{id}"
 					]
 				}
 			},
