@@ -1,5 +1,7 @@
 # Tour de France 2022 Rest-API.
 
+This project is my backend for my exam project 2022. It is a full-stack application build in Java, with the Spring framework and a MYSQL database .
+
 ## Steps to Setup
 
 **1. Clone the application**
