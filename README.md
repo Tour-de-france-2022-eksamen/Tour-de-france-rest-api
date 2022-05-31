@@ -20,7 +20,7 @@ create database tourdefrance2022
 + open `src/main/resources/application.properties`
 + change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation
 
-**4. Run the app using maven**
+**4. Run the Rest-API using maven**
 
 ```bash
 Run/compile app in your local IDE
