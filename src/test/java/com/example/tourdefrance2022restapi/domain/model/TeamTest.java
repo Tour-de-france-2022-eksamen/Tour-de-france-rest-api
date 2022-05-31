@@ -13,7 +13,6 @@ class TeamTest {
 
         //Act and Assert
         assertEquals(testTeam.getName(), "Test Team");
-
     }
 
     @Test
@@ -24,7 +23,6 @@ class TeamTest {
 
         //Act and Assert
         assertEquals(testTeam.getName(), "Test Name");
-
     }
 
 }

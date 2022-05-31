@@ -21,7 +21,7 @@ public class TeamController {
     }
 
     @GetMapping("/{id}")
-    public Team getRiderById(@PathVariable int id) {
+    public Team getRiderByTeamId(@PathVariable int id) {
         Optional<Team> teamById = teamRepository.findById(id);
         if (teamById.isPresent()) {
             return teamById.get();
