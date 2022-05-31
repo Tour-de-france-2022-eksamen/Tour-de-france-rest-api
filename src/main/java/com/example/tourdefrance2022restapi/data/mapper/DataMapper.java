@@ -51,7 +51,7 @@ public class DataMapper implements CommandLineRunner {
         rider1.setAge(33);
         rider1.setNationality("Portugal");
         rider1.setTime(124522);
-        rider1.setMountainPoints(2);
+        rider1.setMountainPoints(1);
         rider1.setSprintPoints(0);
         rider1.setTeam(team1);
         riderRepository.save(rider1);
@@ -113,7 +113,7 @@ public class DataMapper implements CommandLineRunner {
         rider7.setAge(24);
         rider7.setNationality("France");
         rider7.setTime(124643);
-        rider7.setMountainPoints(3);
+        rider7.setMountainPoints(1);
         rider7.setSprintPoints(0);
         rider7.setTeam(team2);
         riderRepository.save(rider7);
@@ -123,7 +123,7 @@ public class DataMapper implements CommandLineRunner {
         rider8.setAge(29);
         rider8.setNationality("Great Britain");
         rider8.setTime(124542);
-        rider8.setMountainPoints(4);
+        rider8.setMountainPoints(0);
         rider8.setSprintPoints(0);
         rider8.setTeam(team2);
         riderRepository.save(rider8);
@@ -250,7 +250,7 @@ public class DataMapper implements CommandLineRunner {
         rider20.setAge(27);
         rider20.setNationality("United States");
         rider20.setTime(124021);
-        rider20.setMountainPoints(8);
+        rider20.setMountainPoints(1);
         rider20.setSprintPoints(0);
         rider20.setTeam(team5);
         riderRepository.save(rider20);
@@ -270,8 +270,8 @@ public class DataMapper implements CommandLineRunner {
         rider22.setAge(25);
         rider22.setNationality("Denmark");
         rider22.setTime(123300);
-        rider22.setMountainPoints(4);
-        rider22.setSprintPoints(4);
+        rider22.setMountainPoints(0);
+        rider22.setSprintPoints(1);
         rider22.setTeam(team5);
         riderRepository.save(rider22);
 
