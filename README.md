@@ -63,6 +63,6 @@ The app will start running at <http://localhost:8080>
   
 ## Contributors
 
-This a solo-project for my exam build and developed by:
+This is a solo-project for my exam build and developed by:
 
 * [@jeppe-t](https://github.com/jeppe-t) 👊🏻👨🏻‍💻
