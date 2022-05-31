@@ -2,6 +2,8 @@
 
 This project is my backend for my exam project 2022. It is a full-stack application build in Java, with the Spring framework and a MYSQL database.
 
+There is Postman Script included for testing CRUD in the docs/postman folder.
+
 ## Steps to Setup
 
 **1. Clone the application**
